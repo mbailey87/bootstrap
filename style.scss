@@ -1,0 +1,32 @@
+body {
+    font-family: 'Tangerine', cursive;
+    background: url(images/Dnd\ party.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.discription {
+    width: 60%;
+}
+.mid {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.hover:hover {
+    border: 2px solid white;
+    background-color: rgb(238, 5, 5);
+    opacity: 75%;
+}
+.col-3 span:hover {
+    color: black;
+}
+@media (max-width: 767px) {
+    .hover{
+        border: 2px solid white;
+    }
+    .mid {
+        border-top: 0;
+        border-bottom: 0;
+    }
+}
